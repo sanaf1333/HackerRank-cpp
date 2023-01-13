@@ -56,6 +56,7 @@ int formingMagicSquare(vector<vector<int>> s) {
             mirror_a[i][j]=a[i][j];
         }
     }
+    //create mirror
     for(int i=0;i<n;i++){ //mirror matrix for 3x3       
         swap(mirror_a[i][n-1],mirror_a[i][n-1]); //00-02 10-12 20-22       
     }
